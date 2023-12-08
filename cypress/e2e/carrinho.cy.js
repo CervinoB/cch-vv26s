@@ -10,7 +10,8 @@ describe("Site: teste - Cenario: teste", () => {
       'a[title="Mouse Gamer Sem Fio Logitech G305 Lightspeed - Preto"]'
     ).should("be.visible");
 
-    cy.contains("Mais relevantes").click();
+    cy.get("button[aria-labelledby").click();
     cy.contains("Menor preço").click();
+    cy.contains("Mouse Feet Skate Logitech G304 G305").should("be.visible");
   });
 });
