@@ -6,7 +6,7 @@ describe("Informe seu cep", () => {
       "https://www.mercadolivre.com.br/navigation/addresses-hub?go=https%3A%2F%2Fwww.mercadolivre.com.br%2F"
     );
     cy.get("h1")
-      .contains("Selecione onde quer receber suas compras")
+      .get('input[placeholder="Informar um CEP"]')
       .should("be.visible");
     cy.get('input[data-testid="zip-code-textfield"]')
       .should("be.visible")
