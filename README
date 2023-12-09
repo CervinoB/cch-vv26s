@@ -2,62 +2,59 @@
 
 ### 1. Introdução
 
-Este relatório fornece uma análise detalhada dos resultados dos testes de automação realizados no site de comércio eletrônico "Mercado Livre". O escopo dos testes abrange diversos cenários, incluindo pesquisa de produtos, adição de produtos ao carrinho, processo de checkout e gerenciamento de conta do usuário.
+Este relatório fornece uma análise detalhada dos resultados dos testes de automação realizados no site de comércio eletrônico "Mercado Livre". O escopo dos testes abrange diversos cenários, incluindo filtragem de produtos, informe de CEP, navegação e pesquisa de produtos.
 
 ### 2. Site de Teste Selecionado
 
-O site escolhido para os testes de automação foi o "Mercado Livre", disponível em https://www.mercadolivre.com.br/. Este site é amplamente utilizado e oferece uma ampla gama de funcionalidades relacionadas a compras online.
+O site escolhido para os testes de automação foi o "Mercado Livre", disponível em https://www.mercadolivre.com.br/. Este site é amplamente utilizado e oferece uma variedade de funcionalidades relacionadas a compras online.
 
 ### 3. Cenários de Teste Identificados
 
-Os cenários de teste foram estrategicamente identificados para abranger as principais funcionalidades do site:
+Filtragem de Produtos
+O cenário de teste de filtragem foi projetado para validar a funcionalidade de filtragem de produtos. O script pode ser encontrado em cypress/e2e/filtragem.cy.js.
+
+Informe seu CEP
+O cenário "Informe seu CEP" testa a inserção de um CEP no site do Mercado Livre. O script pode ser encontrado em cypress/e2e/informe-seu-cep.cy.js.
+
+Navegação e Ordenação de Produtos
+O cenário "Navegação" testa a busca e ordenação de produtos no site. O script pode ser encontrado em cypress/e2e/navegacao.cy.js.
 
 Pesquisa de Produtos
-Validação da funcionalidade de pesquisa, incluindo testes de filtros e ordenação.
-
-Adição de Produtos ao Carrinho
-Teste da adição de produtos ao carrinho de compras, com ênfase na identificação de inconsistências.
-
-Processo de Checkout
-Verificação do fluxo de checkout, incluindo preenchimento de informações de pagamento e detecção de possíveis problemas.
-
-Gerenciamento de Conta do Usuário
-Teste das funcionalidades de login, logout e atualização de informações pessoais, destacando qualquer lentidão identificada.
+O cenário "Pesquisa de Produtos" testa a pesquisa por produtos específicos e a aplicação de filtros. O script pode ser encontrado em cypress/e2e/pesquisa-de-produtos.cy.js.
 
 ### 4. Configuração do Ambiente Cypress
 
-O ambiente Cypress foi configurado de acordo com as necessidades específicas do site do Mercado Livre. Isso envolveu a instalação do Cypress, a configuração de plugins relevantes e a estruturação lógica dos testes nos diretórios apropriados.
+O ambiente Cypress foi configurado de acordo com as necessidades específicas do site do Mercado Livre. Isso incluiu a instalação do Cypress, a configuração de plugins relevantes e a estruturação lógica dos testes nos diretórios apropriados. O arquivo de configuração pode ser encontrado em cypress.config.js.
 
 ### 5. Scripts de Teste
 
-Scripts de teste foram desenvolvidos para cada cenário identificado. Estes incluíram interações com elementos da página, preenchimento de formulários e validação de resultados esperados.
+Os scripts de teste foram desenvolvidos para cada cenário identificado, abrangendo interações com elementos da página, preenchimento de formulários e validação de resultados esperados. Os scripts podem ser encontrados em cypress/e2e.
 
 ### 6. Execução dos Testes
 
-A execução dos testes foi realizada utilizando o Cypress Runner para garantir uma cobertura abrangente dos cenários identificados. Capturas de tela foram configuradas para registrar momentos-chave durante a execução dos testes.
+A execução dos testes foi realizada utilizando o Cypress Runner para garantir cobertura abrangente dos cenários identificados. Capturas de tela foram configuradas para registrar momentos-chave durante a execução dos testes. Os vídeos de execução podem ser encontrados nos links abaixo:
+
+Filtragem de Produtos
+Informe seu CEP
+Navegação e Ordenação de Produtos
+Pesquisa de Produtos
 
 ### 7. Resultados e Erros Encontrados
 
+Filtragem de Produtos
+Testes bem-sucedidos na filtragem de produtos.
+Informe seu CEP
+Testes bem-sucedidos na inserção de CEP.
+Navegação e Ordenação de Produtos
+Testes bem-sucedidos na navegação e ordenação de produtos.
 Pesquisa de Produtos
-Testes bem-sucedidos em diferentes cenários, incluindo filtros e ordenação.
-Adição de Produtos ao Carrinho
-Identificadas inconsistências em produtos específicos (consulte a captura de tela anexa).
-Processo de Checkout
-Problemas encontrados no preenchimento de informações de pagamento em alguns casos (consulte a captura de tela anexa).
-Gerenciamento de Conta do Usuário
-Testes bem-sucedidos para login e logout, mas identificada lentidão em atualizações de informações pessoais.
+Testes bem-sucedidos na pesquisa por produtos específicos e aplicação de filtros.
 
 ### 8. Possíveis Melhorias e Otimizações
 
-Adição de Produtos ao Carrinho
-Investigar e corrigir inconsistências identificadas em produtos específicos.
-Processo de Checkout
-Corrigir problemas identificados no preenchimento de informações de pagamento.
-Desempenho do Site
-Avaliar e otimizar o desempenho em atualizações de informações pessoais.
-Relatórios Detalhados
-Aprimorar relatórios incluindo mais informações sobre falhas e logs.
-
-### 9. Conclusão
-
-Os testes de automação no site do Mercado Livre demonstraram um desempenho satisfatório em muitos cenários, identificando áreas específicas para melhoria. As propostas de melhorias visam aprimorar a confiabilidade e eficiência dos testes automatizados. A automação no ambiente Cypress revelou-se eficaz na validação das funcionalidades críticas do site, proporcionando uma base sólida para futuras iterações e aprimoramentos.
+Filtragem de Produtos
+Avaliar a inclusão de testes adicionais para cobrir casos mais complexos.
+Informe seu CEP
+Investigar opções para reduzir o tempo de espera após a inserção do CEP.
+Navegação e Ordenação de Produtos
+Avaliar a inclusão de testes para diferentes categor
