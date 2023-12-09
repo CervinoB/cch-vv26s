@@ -26,9 +26,13 @@ O cenário "Pesquisa de Produtos" testa a pesquisa por produtos específicos e a
 
 O ambiente Cypress foi configurado de acordo com as necessidades específicas do site do Mercado Livre. Isso incluiu a instalação do Cypress, a configuração de plugins relevantes e a estruturação lógica dos testes nos diretórios apropriados. O arquivo de configuração pode ser encontrado em cypress.config.js.
 
+https://github.com/CervinoB/cch-vv26s/blob/main/cypress.config.js
+
 ### 5. Scripts de Teste
 
 Os scripts de teste foram desenvolvidos para cada cenário identificado, abrangendo interações com elementos da página, preenchimento de formulários e validação de resultados esperados. Os scripts podem ser encontrados em cypress/e2e.
+
+https://github.com/CervinoB/cch-vv26s/tree/main/cypress/e2e
 
 ### 6. Execução dos Testes
 
@@ -38,6 +42,14 @@ Filtragem de Produtos
 Informe seu CEP
 Navegação e Ordenação de Produtos
 Pesquisa de Produtos
+
+https://github.com/CervinoB/cch-vv26s/blob/main/cypress/videos/filtragem.cy.js.mp4
+
+https://github.com/CervinoB/cch-vv26s/blob/main/cypress/videos/informe-seu-cep.cy.js.mp4
+
+https://github.com/CervinoB/cch-vv26s/blob/main/cypress/videos/navegacao.cy.js.mp4
+
+https://github.com/CervinoB/cch-vv26s/blob/main/cypress/videos/pesquisa-de-produtos.cy.js.mp4
 
 ### 7. Resultados e Erros Encontrados
 
