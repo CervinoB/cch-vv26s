@@ -1,51 +1,63 @@
-# CCH-VV26S
+# Relatório Detalhado de Testes de Automação - Site de Teste (Mercado Livre)
 
-- Gabriel Antonio Zaro Negri (RA 2372525)
-- João Pedro Cervino Barbosa (RA 2372576)
+### 1. Introdução
 
-## Introdução
+Este relatório fornece uma análise detalhada dos resultados dos testes de automação realizados no site de comércio eletrônico "Mercado Livre". O escopo dos testes abrange diversos cenários, incluindo pesquisa de produtos, adição de produtos ao carrinho, processo de checkout e gerenciamento de conta do usuário.
 
-O presente relatório descreve os resultados dos testes de automação realizados no site de comércio eletrônico "Mercado Livre". Os testes visam validar diferentes cenários de interação com o site, incluindo pesquisa de produtos, processo de compra, e funcionalidades de conta do usuário.
+### 2. Site de Teste Selecionado
 
-## Site de Teste Selecionado
+O site escolhido para os testes de automação foi o "Mercado Livre", disponível em https://www.mercadolivre.com.br/. Este site é amplamente utilizado e oferece uma ampla gama de funcionalidades relacionadas a compras online.
 
-O site escolhido para os testes de automação foi o "Mercado Livre", acessível em https://www.mercadolivre.com.br/. Este site é amplamente utilizado e oferece uma variedade de funcionalidades relacionadas a compras online.
+### 3. Cenários de Teste Identificados
 
-## Cenários de Teste Identificados
+Os cenários de teste foram estrategicamente identificados para abranger as principais funcionalidades do site:
 
-Foram identificados os seguintes cenários de teste:
+Pesquisa de Produtos
+Validação da funcionalidade de pesquisa, incluindo testes de filtros e ordenação.
 
-Pesquisa de Produtos: Validar a funcionalidade de pesquisa, incluindo filtros e ordenação.
-Adição de Produtos ao Carrinho: Testar a adição de produtos ao carrinho de compras.
-Processo de Checkout: Verificar o fluxo de checkout, incluindo preenchimento de informações de pagamento.
-Gerenciamento de Conta do Usuário: Testar funcionalidades de login, logout e atualização de informações pessoais. 
-##  Configuração do Ambiente Cypress
+Adição de Produtos ao Carrinho
+Teste da adição de produtos ao carrinho de compras, com ênfase na identificação de inconsistências.
 
-O ambiente Cypress foi configurado para atender às necessidades específicas do site do Mercado Livre. Isso incluiu a instalação do Cypress, configuração de plugins relevantes e estruturação dos testes em diretórios lógicos.
+Processo de Checkout
+Verificação do fluxo de checkout, incluindo preenchimento de informações de pagamento e detecção de possíveis problemas.
 
-## Scripts de Teste
+Gerenciamento de Conta do Usuário
+Teste das funcionalidades de login, logout e atualização de informações pessoais, destacando qualquer lentidão identificada.
 
-Scripts de teste foram desenvolvidos para cada cenário identificado, cobrindo interações com elementos da página, preenchimento de formulários e validação de resultados esperados.
+### 4. Configuração do Ambiente Cypress
 
-## Execução dos Testes
+O ambiente Cypress foi configurado de acordo com as necessidades específicas do site do Mercado Livre. Isso envolveu a instalação do Cypress, a configuração de plugins relevantes e a estruturação lógica dos testes nos diretórios apropriados.
 
-Os testes foram executados utilizando o Cypress Runner, garantindo uma cobertura abrangente dos cenários identificados. Capturas de tela foram configuradas para registrar momentos-chave durante a execução dos testes.
+### 5. Scripts de Teste
 
-## Resultados e Erros Encontrados
+Scripts de teste foram desenvolvidos para cada cenário identificado. Estes incluíram interações com elementos da página, preenchimento de formulários e validação de resultados esperados.
 
-Pesquisa de Produtos: Testes bem-sucedidos em diferentes cenários, incluindo filtros e ordenação.
-Adição de Produtos ao Carrinho: Algumas inconsistências identificadas em produtos específicos (captura de tela anexa).
-Processo de Checkout: Problemas encontrados no preenchimento de informações de pagamento em alguns casos (captura de tela anexa).
-Gerenciamento de Conta do Usuário: Testes bem-sucedidos para login e logout, mas identificada lentidão em atualizações de informações pessoais. 8. Possíveis Melhorias e Otimizações
+### 6. Execução dos Testes
 
-Adição de Produtos ao Carrinho: Investigar inconsistências em produtos específicos.
-Processo de Checkout: Corrigir problemas identificados no preenchimento de informações de pagamento.
-Desempenho do Site: Avaliar e otimizar o desempenho em atualizações de informações pessoais.
-Relatórios Detalhados: Aprimorar relatórios com mais informações sobre falhas e logs. 9. Conclusão
+A execução dos testes foi realizada utilizando o Cypress Runner para garantir uma cobertura abrangente dos cenários identificados. Capturas de tela foram configuradas para registrar momentos-chave durante a execução dos testes.
 
-Os testes de automação no site do Mercado Livre revelaram um desempenho satisfatório em muitos cenários, identificando áreas de melhoria específicas. As melhorias propostas buscam aprimorar a confiabilidade e a eficiência dos testes automatizados. A automação no ambiente Cypress mostrou-se eficaz na validação das funcionalidades críticas do site.
+### 7. Resultados e Erros Encontrados
 
-### Anexos:
+Pesquisa de Produtos
+Testes bem-sucedidos em diferentes cenários, incluindo filtros e ordenação.
+Adição de Produtos ao Carrinho
+Identificadas inconsistências em produtos específicos (consulte a captura de tela anexa).
+Processo de Checkout
+Problemas encontrados no preenchimento de informações de pagamento em alguns casos (consulte a captura de tela anexa).
+Gerenciamento de Conta do Usuário
+Testes bem-sucedidos para login e logout, mas identificada lentidão em atualizações de informações pessoais.
 
-Captura de tela de inconsistências na adição de produtos ao carrinho.
-Captura de tela de problemas no preenchimento de informações de pagamento durante o processo de checkout.
+### 8. Possíveis Melhorias e Otimizações
+
+Adição de Produtos ao Carrinho
+Investigar e corrigir inconsistências identificadas em produtos específicos.
+Processo de Checkout
+Corrigir problemas identificados no preenchimento de informações de pagamento.
+Desempenho do Site
+Avaliar e otimizar o desempenho em atualizações de informações pessoais.
+Relatórios Detalhados
+Aprimorar relatórios incluindo mais informações sobre falhas e logs.
+
+### 9. Conclusão
+
+Os testes de automação no site do Mercado Livre demonstraram um desempenho satisfatório em muitos cenários, identificando áreas específicas para melhoria. As propostas de melhorias visam aprimorar a confiabilidade e eficiência dos testes automatizados. A automação no ambiente Cypress revelou-se eficaz na validação das funcionalidades críticas do site, proporcionando uma base sólida para futuras iterações e aprimoramentos.
