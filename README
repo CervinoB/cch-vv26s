@@ -28,13 +28,25 @@ Teste das funcionalidades de login, logout e atualização de informações pess
 
 O ambiente Cypress foi configurado de acordo com as necessidades específicas do site do Mercado Livre. Isso envolveu a instalação do Cypress, a configuração de plugins relevantes e a estruturação lógica dos testes nos diretórios apropriados.
 
+https://github.com/CervinoB/cch-vv26s/blob/main/cypress.config.js
+
 ### 5. Scripts de Teste
 
 Scripts de teste foram desenvolvidos para cada cenário identificado. Estes incluíram interações com elementos da página, preenchimento de formulários e validação de resultados esperados.
 
+https://github.com/CervinoB/cch-vv26s/tree/main/cypress/e2e
+
 ### 6. Execução dos Testes
 
 A execução dos testes foi realizada utilizando o Cypress Runner para garantir uma cobertura abrangente dos cenários identificados. Capturas de tela foram configuradas para registrar momentos-chave durante a execução dos testes.
+
+https://github.com/CervinoB/cch-vv26s/blob/main/cypress/videos/filtragem.cy.js.mp4
+
+https://github.com/CervinoB/cch-vv26s/blob/main/cypress/videos/informe-seu-cep.cy.js.mp4
+
+https://github.com/CervinoB/cch-vv26s/blob/main/cypress/videos/navegacao.cy.js.mp4
+
+https://github.com/CervinoB/cch-vv26s/blob/main/cypress/videos/pesquisa-de-produtos.cy.js.mp4
 
 ### 7. Resultados e Erros Encontrados
 
