@@ -1,5 +1,5 @@
 describe("Informe seu cep", () => {
-  it("cep", () => {
+  it("Ifn", () => {
     cy.visit("https://www.mercadolivre.com.br/");
     cy.get(".nav-menu-item").contains(" Digite seu endereço").click();
     cy.visit(
